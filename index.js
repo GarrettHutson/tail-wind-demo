@@ -23,7 +23,7 @@ const parent = document.querySelector("deleteDiv")
 // const list = document.createElement('div');
 
 // to have a button begin the setinterval, needs to assigned to a let var inside a func
-// const randomizer = setInterval(randomPerson, 100);
+const randomizer = setInterval(randomPerson, 100);
 
 const button = document.querySelector('#stop-button');
 button.addEventListener('click', () => {
