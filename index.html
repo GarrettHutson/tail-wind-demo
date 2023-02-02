@@ -10,18 +10,26 @@
     <title>Document</title>
 </head>
 <body>
-<div>
+<div class="w-full">
 <nav>
     <i class="fa-solid fa-wind-turbine"></i>
 </nav>
-<div class="bg-slate-400 border-2 border-black p-2 flex flex-col md:bg-red-400 items-center m-8 rounded-xl">
+<div class="bg-slate-400 border-2    border-black p-2 flex flex-col md:bg-red-400 items-center m-8 rounded-xl">
     <h1 class="text-4xl">Random Standups Generator</h1>
     <div id="luckyPerson"></div>
-    <button class="border-2 hover:bg-white bg-orange-200 border-black m-2 p-2 rounded-lg">Random</button>
+    <button onclick="" id="stop-button" class="border-2 hover:bg-white bg-orange-200 border-black m-2 p-2 rounded-lg">Stop</button>
 </div>
+<div id="deleteDiv">
+
+    <div id="listOfNames"></div>
+</div>
+
   
 </div>
 
     <script src="index.js"></script>
+
 </body>
 </html>
+<!-- ********run this to update styles -->
+<!-- npx tailwindcss -i ./index.css -o ./dist/output.css --watch -->
